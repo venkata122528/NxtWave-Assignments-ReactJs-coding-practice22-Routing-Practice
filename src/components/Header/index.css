@@ -1,0 +1,29 @@
+/* Write your CSS code here */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.logoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 25%;
+}
+
+.headerLogo {
+  height: 50px;
+}
+
+.tabItemsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.eachTabItems {
+  list-style-type: none;
+}
